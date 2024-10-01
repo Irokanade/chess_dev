@@ -7,6 +7,8 @@ var board1 = ChessBoard('board1', {
 // NOTE: this example uses the chess.js library:
 // https://github.com/jhlywa/chess.js
 
+import { Chess } from './chess.js';
+
 var board = null
 var game = new Chess()
 
